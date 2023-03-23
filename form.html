@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Form</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #FF99CC;
+}
+.style1 {	color: #8000FF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.style2 {
+	color: #FFFF00;
+	font-style: italic;
+	font-weight: bold;
+}
+#Layer4 {
+	position:absolute;
+	width:1407px;
+	height:105px;
+	z-index:3;
+	background-color: #FF3399;
+	left: 4px;
+	top: -1px;
+}
+#Layer1 {
+	position:absolute;
+	width:1397px;
+	height:42px;
+	z-index:4;
+	left: 1px;
+	top: 106px;
+}
+#Layer2 {
+	position:absolute;
+	width:573px;
+	height:358px;
+	z-index:5;
+	left: 471px;
+	top: 148px;
+	background-color: #FF6633;
+	overflow: visible;
+}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
+</head>
+
+<body>
+<div class="style1" id="Layer4">
+  <h1 align="center" class="style2"><font size="60">Kisubi Mapeera SS</font> </h1>
+</div>
+<div id="Layer1">buttons</div>
+<form id="form1" name="form1" method="post" action="">
+</form>
+<div id="Layer2">
+  <form id="form2" name="form2" method="post" action="">
+    <p><label></label>&nbsp;</p>
+    <p><label>Names</label>
+      <label>
+      <input name="textfield" type="text" value="" />
+      </label>
+    </p>
+    <p>
+      <label>District
+      <input type="text" name="textfield2" />
+      </label>
+      <select name="menu1" onchange="MM_jumpMenu('parent',this,0)">
+        <option>Classes</option>
+        <option>Dormitories</option>
+        <option>Gate</option>
+        <option>School Farm</option>
+      </select>
+    </p>
+    <p>
+      <label>
+      <input type="radio" name="Sex" value="radio" />
+Male</label>
+      <br />
+      <label>
+      <input type="radio" name="Sex" value="radio" />
+Female</label>
+    </p>
+    <p><label>Hobbies</label>
+    :
+      <label>
+      <input type="checkbox" name="checkbox" value="checkbox" />
+      Dancing</label>
+      <label>Students</label>
+      <select name="select">
+        <option>Murangira</option>
+        <option>Mugarura</option>
+        <option>Mukasa</option>
+        <option>Agaba</option>
+      </select>
+    </p>
+    <p>
+      <label>Comment
+      <fieldset><legend>date</legend><textarea name="textarea" rows="5"></textarea></fieldset>
+      </label>
+</p>
+    <label>Send
+    <input type="submit" name="Submit" value="Submit" />
+    </label>
+    	<label>Reset
+    	<input type="reset" name="Submit2" value="Reset" />
+    	</label>
+   	  <p>&nbsp;</p>
+    	<p><br />
+  	        </p>
+    	<p>.</p>
+  </form>
+</div>
+</body>
+</html>
